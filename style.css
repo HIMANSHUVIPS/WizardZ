@@ -16,7 +16,7 @@ section{
 nav{
     display: flex;
     align-items: center;
-    padding: 25px 35px;
+    padding: 25px 60px;
 }
 .nav_content{
     display: flex;
@@ -50,4 +50,45 @@ nav img{
     border: 1px solid #000;
     border-radius: 5px;
     background-color: transparent;
+}
+.center{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    padding: 60px;
+}
+.center .center_part1{
+    width: 45%;
+    height: 100%;
+   
+}
+.center_part1 h1{
+    font-size: 10vmin;
+    font-family: 'Raleway';
+    width: 100%;
+    font-weight: 500;
+}
+.center_part1 p{
+    margin-top: 20px;
+    width: 90%;
+    font-size: 3vmin;
+    margin-bottom: 30px;
+    font-family: 'open sans';
+}
+.center_part1 button{
+    color: white;
+    background-color: rgb(20, 13, 13);
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    font-family: 'poppins';
+    font-size: 2vmin;
+    border-radius: 10px;
+}
+.center_part2{
+    display: flex;
+    width: 55%;
+}
+.center_part2 img{
+width: 100%;
 }
