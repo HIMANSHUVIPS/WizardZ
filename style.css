@@ -8,3 +8,46 @@ body{
 height: 100%;
 width: 100%;
 }
+section{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 25px 35px;
+}
+.nav_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+nav img{
+    width: 50px;
+    rotate: 45deg;
+}
+.part2{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.nav_content h1{
+    font-size: 6vmin;
+    font-family: 'poppins';
+    margin-left: 10px;
+}
+.part2 h4{
+    font-size: 20px;
+    font-family: 'poppins';
+    font-weight: 500;
+}
+.part2 button{
+    font-family: 'poppins';
+    font-size: 20px;
+    padding:5px 15px ;
+    border: 1px solid #000;
+    border-radius: 5px;
+    background-color: transparent;
+}
