@@ -156,7 +156,7 @@ height: 100%;
 }
 .elem_part1 h2{
     font-family: 'poppins';
-    font-size: 4vmin;
+    font-size: 3.5vmin;
     width:80%;
     padding: 10px;
     background-color: #b9ff66;
@@ -184,4 +184,60 @@ height: 100%;
 }
 .white{
     color: white;
+}
+.section3{
+    height: 45%;
+    width: 100%;
+    margin-top: 250px;
+    padding: 10px 60px;
+}
+.section3_container{
+    background-color: #F3F3F3;
+    padding: 30px 60px;
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.section3_first{
+    padding: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section3_first h1{
+    font-size: 7vmin;
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+.section3_first p{
+    font-family: 'poppins';
+    font-size: 2.4vmin;
+}
+.section3_first button{
+    background-color: #000;
+    color: white;
+    font-size: 2.5vmin;
+    font-family: 'open sans';
+    padding: 10px 20px;
+    border-radius: 20px;
+    width: auto;
+    align-self: flex-start;
+}
+.section3_first button span{
+    color: #b9ff66;
+    font-family: 'poppins';
+    font-weight: 600;
+    text-shadow: 2px 2px 8px rgba(255, 255, 255, 0.8);
+}
+.section3_second{   
+    height: 110%;
+    width: 35%;
+}
+.section3_second img{
+    height: 100%;
+    width: 100%;
 }
