@@ -62,7 +62,7 @@ nav img{
     height: 100%;
 }
 .center_part1 h1{
-    font-size: 10vmin;
+    font-size: 9vmin;
     font-family: 'Raleway';
     width: 100%;
     font-weight: 500;
@@ -109,7 +109,7 @@ height: 100%;
     justify-content: flex-start;
     align-items: center;
     margin-top: 150px;
-    padding: 40px 60px;
+    padding: 70px 60px;
     gap: 40px;
 }
 .services h2{
@@ -125,7 +125,8 @@ height: 100%;
 .services p{
     font-family: 'Raleway';
     width: 50%;
-    font-size: 2vmin;
+    font-size: 2.2vmin;
+    font-weight: 500;
 }
 .img_container{
     /* background-color: aqua; */
@@ -240,4 +241,51 @@ height: 100%;
 .section3_second img{
     height: 100%;
     width: 100%;
+}
+.section4{
+     height: 45%;
+    width: 100%;
+    padding: 10px 60px;
+}
+.section4 .services{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0px 60px;
+    gap: 40px;
+}
+.section4_container{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.section4_item{
+    width: 25%;
+    height: 70%;
+}
+.section4_item p{
+    font-family: 'open sans';
+    font-size: 2vmin;
+    line-height: 25px;
+}
+.vertical_bar{
+    width: 1px;
+    height: 70%;
+    background-color: white;
+}
+.section4_item h4{
+    margin-top: 30px;
+    color: #b9ff66;
+    font-size: 2.5vmin;
+    font-family: 'open sans';
+}
+.section4_item h4 i{
+    margin-right: 5px;
 }
