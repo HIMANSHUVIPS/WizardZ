@@ -58,11 +58,11 @@ nav img{
     padding: 60px;
 }
 .center .center_part1{
-    width: 45%;
+    width: 50%;
     height: 100%;
 }
 .center_part1 h1{
-    font-size: 9vmin;
+    font-size: 10vmin;
     font-family: 'Raleway';
     width: 100%;
     font-weight: 500;
@@ -86,7 +86,7 @@ nav img{
 }
 .center_part2{
     display: flex;
-    width: 55%;
+    width: 50%;
     height: 100%;
     object-fit: cover;
 }
@@ -130,7 +130,7 @@ height: 100%;
 }
 .img_container{
     /* background-color: aqua; */
-    margin-top: 30px;
+    /* margin-top: 30px; */
     height: 100%;
     width: 100%;
     padding: 0px 60px;
@@ -141,7 +141,7 @@ height: 100%;
 }
 .elem{
     flex-shrink: 0;
-    height: 300px;
+    height: 280px;
     width: 45%;
     border-radius: 20px;
     border: 2px solid black;
