@@ -1,0 +1,165 @@
+.menuImg {
+  rotate: 180deg;
+  display: none;
+  width: 25px;
+  cursor: pointer;
+}
+@media (max-width: 850px) {
+    nav{
+        padding: 25px 25px;
+    }
+  .menuImg {
+    display: block;
+   margin-top: 10px;
+  }
+  .part2 {
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    margin-top: -990px;
+    transition: all 0.5s ease;
+  }
+  .nav_content h1 {
+    position: absolute;
+    top: 30px;
+    left: 40px;
+  }
+  .part2 h4 {
+    margin: 30px auto;
+  }
+  .navImg{
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    width: 40px;
+  }
+  .center{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    padding: 25px;
+  }
+  .center_part1{
+    width: 600px;
+  }
+  .center_part2{
+    width: 100%;
+  }
+  .center_part1 h1{
+    font-size: 10vmin;
+    font-weight: 600;
+  }
+  .center_part1 button{
+    position: absolute;
+    top: 60%;
+    left: 6%;
+    font-size: 4vmin;
+    font-weight: 700;
+    padding: 10px 10px;
+  }
+  .center_part2 img{
+    width: 150px;
+    position: absolute;
+    top: 35%;
+    left: 25%;
+  }
+  .section1_bottom{
+    margin-top: 20px;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .section1_bottom img{
+    width: 130px;
+}
+.section2{
+    margin-top: 100vh;
+}
+.section2 .services{
+    padding: 10px 25px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.services h2{
+    padding: 10px 55px;
+    font-size: 6vmin;
+}
+.services p{
+    font-size: 5vmin;
+    width: 100%;
+    text-align: center;
+}
+.img_container{
+    margin-top: 50px;
+    padding: 10px 25px;
+    width: 100%;
+}
+.elem{
+    width: 100%;
+    height: 100px;
+}
+.elem_part1{
+    width: 100%;
+}
+.elem_part1 h2{
+    font-size: 2vmin;
+    color: black;
+    margin-bottom: 20px;
+}
+.elem_part2 img{
+    width: 100px;
+}
+.section3{
+    width: 100%;
+    padding: 10px 25px;
+    height: 40%;
+}
+.section3_container{
+    padding: 20px 15px;
+}
+.section3_second{
+    width: 80px;
+    height: 100px;
+}
+.section3_second img{
+    width: 100%;
+    height: 100%;
+}
+.section3_first{
+    padding: 10px;
+}
+.section3_first h1{
+    font-size: 5vmin;
+    font-weight: 700;
+}
+.section3_first button{
+    padding: 5px 15px;
+    width: 100%;
+}
+.section4{
+    padding: 10px 10px;
+    height: 50%
+}
+.section4 .services{
+    display: flex;
+    width: 100%;
+    padding: 0px 0px;
+    flex-direction: column;
+}
+.section4 .services h2{
+
+    text-wrap: nowrap;
+}
+.section4_item p{
+    line-height: 15px;
+    text-align: center;
+}
+.section4_container{
+    width: 100%;
+    padding: 0px 0px;
+}
+
+}
